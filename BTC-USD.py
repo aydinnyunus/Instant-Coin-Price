@@ -2,8 +2,8 @@ from binance.client import Client
 from datetime import datetime
 import csv
 
-api_key = "pCfu0VaahI7xXhATfpoLwT80y8Awb1BE78MigJVX4HSllDAXV5rE3QVUB2mY2n6Q"
-api_secret = "OiaKjCQ5231ZrV8xkFkODUvU3jpuRUJRzH7SBSmXl3EslYTewTxFbHiPbpHsabWz"
+api_key = "YOUR API KEY"
+api_secret = "YOUR API SECRET"
 client = Client(api_key, api_secret)
 
 # get market depth
